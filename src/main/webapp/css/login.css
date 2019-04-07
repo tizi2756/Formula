@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('../img/background2.jpg');
+	background-size: cover;
+}
+.login{
+	width:380px;
+	height:200px;
+	margin: 150px auto;
+	background-color: rgba(119,136,153,0.6);
+	border-radius: 15px;
+	padding: 50px 60px;
+}
+label{
+	font-size: 25px;
+}
+.studio{
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.int{
+	height:60px;
+	line-height: 60px;
+	position: relative;
+}
+.sub{
+	height:50px;
+	line-height: 50px;
+}
+
+
+#username{
+	height:30px;
+	width:200px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+}
+#pwd{
+	height:30px;
+	width:200px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+}
+#send{
+	height:30px;
+	width:180px;
+	border:0;
+	border-radius:10px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color:black;
+	margin-left: 100px;
+	margin-top:25px;
+}
+#send:hover{
+	color: white;
+	background-color: orange;
+	font-size: 22px;
+}
+
+
+
+input:focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+
+.focus{
+	border:1px solid #f00;
+	background:#fcc;
+}.formtips{
+	width: 150px;
+	height: 15px;
+	margin:2px;
+	padding:2px;
+}
+.onError{
+    background:#FFE0E9 url('../img/reg3.gif') no-repeat 0 center;
+	padding-left:25px;
+	line-height: 15px;
+	position: absolute;
+	top:55px;
+	left:160px;
+}
+.onSuccess{
+    background:#E9FBEB url('../img/reg4.gif') no-repeat 0 center;
+	padding-left:25px;
+	line-height: 15px;
+	position: absolute;
+	top:55px;
+	left: 160px;
+}
+.high{
+	color:red;
+}
+#tishi{
+	display: block;
+	padding-left: 200px;
+	line-height: 20px;
+	height:20px;
+}
