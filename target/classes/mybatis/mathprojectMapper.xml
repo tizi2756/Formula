@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liu.mapper.projectMapper">
+    <insert id="insertStudent" parameterType="com.liu.mode.Student">
+    insert INTO student(username,password,phone) VALUES (#{username},#{password},#{phone})
+</insert>
+    <insert id="insertScoreId" parameterType="com.liu.mode.Student">
+        insert into score(id) values (#{id})
+    </insert>
+    <select id="nameselect" parameterType="String" resultType="com.liu.mode.Student">
+    select * from student where username=#{username}
+</select>
+    <!--<select id="getCivilian" parameterType="int" resultType="com.liu.model.Civilian">-->
+        <!--select * from people where id=#{id}-->
+    <!--</select>-->
+    <!--<update id="update" parameterType="com.liu.model.Civilian">-->
+        <!--update people set name=#{name},password=#{password} where id=#{id}-->
+    <!--</update>-->
+    <insert id="insertScore" parameterType="com.liu.mode.Score">
+        insert INTO score(id,score,number) VALUES (#{id},#{score},#{number})
+    </insert>
+</mapper>

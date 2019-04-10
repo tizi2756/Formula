@@ -1,0 +1,144 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('../img/background2.jpg');
+	background-size: cover;
+}
+li{
+	height:40px;
+}
+p{
+	color:red;
+}
+#subject{
+	width:230px;
+	display: inline-block;
+	overflow: auto;
+}
+input{
+	height:30px;
+	width:200px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+	overflow: auto;
+}
+#subject{
+	width:230px;
+	display: inline-block;
+	overflow: auto;
+}
+#eventuate{
+	display: inline-block;
+}
+input{
+	height:30px;
+	width:130px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+	overflow: auto;
+}
+.exercise{
+	width:580px;
+	height:400px;
+	margin: 100px auto;
+	background-color: rgba(119,136,153,0);
+	border-radius: 15px;
+	padding: 50px 60px;
+}
+label{
+	font-size: 15px;
+	overflow: auto;
+}
+.studio{
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.int{
+	height:60px;
+	line-height: 60px;
+	position: relative;
+}
+.sub{
+	height:50px;
+	line-height: 50px;
+}
+.wrapper{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#start{
+	height:30px;
+	width:180px;
+	border:0;
+	border-radius:10px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color:black;
+	margin-left: 100px;
+	margin-top:25px;
+	margin-left:-10px ;
+}
+#start:hover{
+	color: white;
+	background-color: orange;
+	font-size: 22px;
+}
+#send{
+	height:30px;
+	width:180px;
+	border:0;
+	border-radius:10px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color:black;
+	margin-left: 195px;
+	margin-top:25px;
+}
+#send:hover{
+	color: white;
+	background-color: orange;
+	font-size: 22px;
+}
+input:focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+
+.focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+.formtips{
+	width: 150px;
+	height: 15px;
+	margin:2px;
+	padding:2px;
+}
+.onError{
+	background:#FFE0E9 url('../img/reg3.gif') no-repeat 0 center;
+	padding-left:25px;
+	line-height: 15px;
+	position: absolute;
+	top:55px;
+	left:160px;
+}
+.onSuccess{
+	background:#E9FBEB url('../img/reg4.gif') no-repeat 0 center;
+	padding-left:25px;
+	line-height: 15px;
+	position: absolute;
+	top:55px;
+	left: 160px;
+}
+.high{
+	color:red;
+}

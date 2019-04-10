@@ -1,0 +1,179 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url('../img/background2.jpg');
+	background-size: cover;
+}
+.userchoice{
+	width:380px;
+	height:400px;
+	margin: 100px auto;
+	background-color: rgba(119,136,153,0.6);
+	border-radius: 15px;
+	padding: 50px 60px;
+}
+label{
+	font-size: 25px;
+}
+.studio{
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.int{
+	height:60px;
+	line-height: 60px;
+	position: relative;
+}
+.sub{
+	height:50px;
+	line-height: 50px;
+}
+
+
+
+#amount{
+	height:30px;
+	width:200px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+}
+.short{
+	height:30px;
+	width:85px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+}
+#limit{
+	height:30px;
+	width:200px;
+	border-radius: 5px;
+	border:0;
+	margin-left: 20px;
+}
+#send{
+	height:30px;
+	width:180px;
+	border:0;
+	border-radius:10px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color:black;
+	margin-left: 100px;
+	margin-top:25px;
+}
+#send:hover{
+	color: white;
+	background-color: orange;
+	font-size: 22px;
+}
+#hide{
+	color: rgba(0,0,0,0);
+}
+.addtion{
+	margin-left: 15px;
+}
+
+
+
+input:focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+
+.focus{
+	border:1px solid #f00;
+	background:#fcc;
+}
+.high{
+	color:red;
+}
+
+
+
+/*switch开关*/
+.switch-container{ 
+	margin-left: 35px;
+	height: 25px; 
+	width: 48px; 
+	display: inline-block; 
+	overflow: hidden;
+}
+.switch-container input{ 
+	display: none 
+} 
+.switch-container label{ 
+	display: block;
+	width: 100%; 
+	height: 100%; 
+	background-color:rgba(0,0,0,.25); 
+	cursor: pointer; 
+	border-radius: 25px; 
+	transition: all .4s ease; 
+} 
+.switch-container label:before{ 
+	content:''; 
+	display: block; 
+	border-radius: 25px; 
+	height: 21px; 
+	width: 21px; 
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08); 
+	transition: all .4s ease; 
+	background-color: #fff; 
+	position: relative; 
+	right: -2px; top: 2px; 
+} 
+.switch-container input:checked~label:before{ 
+	right: -25px; 
+	background-color: white; 
+} 
+.switch-container input:checked~label{ 
+	background-color: orange; 
+}
+
+
+.switch-container1{ 
+	margin-left: 60px;
+	height: 25px; 
+	width: 48px; 
+	display: inline-block; 
+	overflow: hidden;
+}
+.switch-container1 input{ 
+	display: none 
+} 
+.switch-container1 label{ 
+	display: block;
+	width: 100%; 
+	height: 100%; 
+	background-color:rgba(0,0,0,.25); 
+	cursor: pointer; 
+	border-radius: 25px; 
+	transition: all .4s ease; 
+} 
+.switch-container1 label:before{ 
+	content:''; 
+	display: block; 
+	border-radius: 25px; 
+	height: 21px; 
+	width: 21px; 
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.08); 
+	transition: all .4s ease; 
+	background-color: #fff; 
+	position: relative; 
+	right: -2px; top: 2px; 
+} 
+.switch-container1 input:checked~label:before{ 
+	right: -25px; 
+	background-color: white; 
+} 
+.switch-container1 input:checked~label{ 
+	background-color: orange; 
+}
